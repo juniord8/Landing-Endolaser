@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#video-texto {
+    padding: 20px;
+    text-align: center;
+}
+
+#video-texto h1{
+    font-size: 50px;
+    color: #CD9F29;
+}
+
+#video-texto{
+    font-size: 25px;
+    color: #515151;
+}
+
+#cta {
+    background-color: floralwhite;
+    color: rgb(227, 20, 20);
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.btn-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#video-texto .whatsapp-icon {
+    position: fixed; /* Posição fixa para que o ícone permaneça visível enquanto o usuário rola a página */
+    bottom: 20px; /* Distância do ícone ao fundo da página */
+    right: 20px; /* Distância do ícone à borda direita da página */
+    z-index: 1000; /* Certifique-se de que o ícone fique acima de outros elementos */
+}
+
+#video-texto .whatsapp-icon img {
+    width: 60px; /* Tamanho do ícone do WhatsApp */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 50%; /* Formato circular para o ícone */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para dar destaque ao ícone */
+}
+
+#whats{
+    position: fixed; bottom: 10px; right: 10px;z-index: 9999;
+}
